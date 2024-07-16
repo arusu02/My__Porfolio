@@ -1,0 +1,361 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/mediaqueries.css" />
+  <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+
+  <!-- Open Graph Protocol -->
+	<title>Adrian Rusu, Frontend Developer</title>
+<meta name="description" content="Experience: CSS, JavaScript, Bootstrap, Git">
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://adrian-rusu-portfolio.netlify.app/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Adrian Rusu, Frontend Developer">
+<meta property="og:description" content="Experience: CSS, JavaScript, Bootstrap, Git">
+
+
+<meta property="og:image" content="https://ogcdn.net/e4b8c678-7bd5-445d-ba03-bfaad510c686/v4/adrian-rusu-portfolio.netlify.app/Adrian%20Rusu%2C%20Frontend%20Developer/https%3A%2F%2Fadrian-rusu-portfolio.netlify.app%2Fassets%2Fimg%2FpictureProfile-nobackground.png/og.png">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:domain" content="adrian-rusu-portfolio.netlify.app">
+<meta property="twitter:url" content="https://adrian-rusu-portfolio.netlify.app/">
+<meta name="twitter:title" content="Adrian Rusu, Frontend Developer">
+<meta name="twitter:description" content="Experience: CSS, JavaScript, Bootstrap, Git">
+
+<meta name="twitter:image" content="https://ogcdn.net/e4b8c678-7bd5-445d-ba03-bfaad510c686/v4/adrian-rusu-portfolio.netlify.app/Adrian%20Rusu%2C%20Frontend%20Developer/https%3A%2F%2Fadrian-rusu-portfolio.netlify.app%2Fassets%2Fimg%2FpictureProfile-nobackground.png/og.png">
+
+ 
+</head>
+<body>
+  
+  <nav id="desktop-nav">
+    <div class="logo">Adrian Rusu</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Adrian Rusu</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  
+  <section id="profile">
+    <div class="section__pic-container">
+      <img class="profile_picture" src="assets/img/pictureProfile-nobackground.png" alt="Adrian profile image" />
+    </div>
+
+    <div class="section_text">
+      <p class="section_text_p1">Hello, I'm</p>
+      <h1 class="title">Adrian Rusu</h1>
+      <p class="section_text_p2">Frontend Developer</p>
+
+      <div class="btn-container">
+        <button
+          class="btn btn-color-1" 
+          target="_blank"
+          onclick="window.open('assets/document/CV%20Adrian%20Rusu.pdf')">
+          Download CV
+        </button>
+        <button 
+          class="btn btn-color-1" 
+          onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+
+      <div id="socials-container">
+        <img
+          src="assets/img/linkedin.png"
+          alt="My LinkedIn profile"
+          class="icon"
+          onclick="window.open('https://www.linkedin.com/in/adrianrusu/', '_blank')"        />
+
+        <img
+          src="assets/img/github.png"
+          alt="My Github profile"
+          class="icon"
+          onclick="window.open('https://github.com/arusu02', '_blank')" 
+        />
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div>
+      <p class="section_text_p1">Get to know more</p>
+      <h1 class="title">About.Me</h1>
+
+      <div class="section-container">
+        <div class="section__pic-container1">
+          <img 
+            class="about-picture" 
+            src="assets/img/about-me.jpg" 
+            alt="Image about section"
+            />
+        </div>
+
+        <div class="about-details-container">
+          <div class="about-container">
+
+            <div class="details-container">
+              <img class="experience-icon" src="assets/img/winner.png" alt="experience icon">
+              <h3>EXPERIENCE</h3>
+              <p>> 1 Year <br>Frontend Development</p>
+            </div>
+
+            <div class="details-container">
+              <img class="education-icon" src="assets/img/mortarboard.png" alt="experience icon">
+              <h3>EDUCATION</h3>
+              <p>Start2Impact <br>Frontend Development</p>
+            </div>
+            
+          </div>
+
+          <div class="text-conatainer">
+            <p class="text-about">
+              Born in 2002 moved to Rome in 2008. <br>
+              In 2024 I chose to start studying web development, which I discovered to be a great passion.
+              
+              I'm seeking an internship where I can apply my skills in content creation and increase my experience in Development. 
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <img class="img-arrow" src="assets/img/arrow.png" alt=""           
+    onclick="location.href='#experience'">
+  </section>
+
+  <section id="experience">
+    <div>
+      <p class="section_text_p1">Explore my</p>
+      <h1 class="title">Experience</h1>
+
+      <div class="experience-container">
+        <div class="experience-container-1">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+
+              <article>
+                <img  class="checkmark-icon" src="assets/img/html.png" alt="experience icon">
+                <div>
+                  <h2>HTML</h2>
+                  <p>Experienced</p>
+                </div>
+              </article>
+
+              <article>
+                <img  class="checkmark-icon" src="assets/img/css-3.png" alt="experience icon">
+                <div>
+                  <h2>CSS</h2>
+                  <p>Experienced</p>
+                </div>
+              </article>
+
+              <article>
+                <img  class="checkmark-icon" src="assets/img/git.png" alt="experience icon">
+                <div>
+                  <h2>GIT</h2>
+                  <p>Basic</p>
+                </div>
+              </article>
+
+              <article>
+                <img  class="checkmark-icon" src="assets/img/bootstrap.png" alt="experience icon">
+                <div>
+                  <h2>Bootstrap</h2>
+                  <p>Basic</p>
+                </div>
+              </article>
+
+              <article>
+                <img  class="checkmark-icon" src="assets/img/js.png" alt="experience icon">
+                <div>
+                  <h2>JavaScript</h2>
+                  <p>Basic</p>
+                </div>
+              </article>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <img class="img-arrow" src="assets/img/arrow.png" alt=""           
+      onclick="location.href='#projects'">
+  </section>
+
+  <section id="projects">
+    <p class="section_text_p1">Explore my</p>
+    <h1 class="title experience-sub-title">Projects</h1>
+    <div class="project-conatiner-experience">
+      <div class="about-container about-container-projects">
+
+        <!-- First project -->
+        <div class="project-container details-experience-conatiner">
+
+        <div class="article-container">
+          <img 
+            src="assets/img/porfolio/project-1.png" 
+            alt="esempio immagine progetto"
+            class="project-image"
+            />
+        </div>
+        <h2 class="experience-sub-title project-title">Project One</h2>
+        <div class="btn-container">
+         
+          <button 
+            class="btn btn-color-1 btn-project" 
+            onclick="location.href='https://github.com/arusu02'">
+            Git Hub
+          </button>
+  
+          <button 
+            class="btn btn-color-1 btn-project" 
+            onclick="location.href='https://github.com/arusu02'">
+            Live Demo
+          </button>
+        </div>
+        </div>
+
+        <!-- second project-->
+        <div class="project-container details-experience-conatiner">
+
+          <div class="article-container">
+            <img 
+              src="assets/img/porfolio/project-1.png" 
+              alt="esempio immagine progetto"
+              class="project-image"
+              />
+          </div>
+          <h2 class="experience-sub-title project-title">Project Two</h2>
+          <div class="btn-container">
+          
+            <button 
+              class="btn btn-color-1 btn-project" 
+              onclick="location.href='https://github.com/arusu02'">
+              Git Hub
+            </button>
+    
+            <button 
+              class="btn btn-color-1 btn-project" 
+              onclick="location.href='https://github.com/arusu02'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+
+        <!--  third project -->
+        <div class="project-container details-experience-conatiner">
+
+          <div class="article-container">
+            <img 
+              src="assets/img/porfolio/project-1.png" 
+              alt="esempio immagine progetto"
+              class="project-image"
+              />
+          </div>
+          <h2 class="experience-sub-title project-title">Project Three</h2>
+          <div class="btn-container">
+          
+            <button 
+              class="btn btn-color-1 btn-project" 
+              onclick="location.href='https://github.com/arusu02'">
+              Git Hub
+            </button>
+    
+            <button 
+              class="btn btn-color-1 btn-project" 
+              onclick="location.href='https://github.com/arusu02'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <img class="img-arrow-project" src="assets/img/arrow.png" alt=""           
+      onclick="location.href='#contact'">
+  </section>
+
+  <section id="contact">
+    <h2 class="tittle">Contact Me</h2>
+    
+    <div class="contact-me-container">
+      <form action="https://formspree.io/f/mkgwnalr" method="POST">
+
+        <div class="form_info">
+          <label>
+            <p class="section-contact_text_p1">Your name:</p>
+            <input class="section_input" name="message" width="auto" required>
+          </label>
+        </div>
+        
+        <div class="contact-section-mail">
+          <label>
+            <p class="section-contact_text_p1">Your email:</p>
+            <input class="section_input" type="email" name="email" width="auto" required>
+          </label>
+        </div>
+
+        <div class="section-contant-text-container">
+          <label>
+            <p class="section-contact_text_p1">Your message:</p>
+            <textarea class="section-text-info" name="message" required></textarea>
+          </label>
+        </div>
+
+        <!-- your other form fields go here -->
+        <button class="btn btn-color-1" type="submit" >Send</button>
+      </form>
+    </div>
+  
+    <img class="img-arrow-to-start" src="assets/img/arrow.png" alt=""           
+    onclick="location.href='#desktop-nav'">
+  </section>
+
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2024 Adrian Rusu. All Rights Reserved.</p>
+  </footer>
+
+  <script src="/assets/js/script.js"></script>
+</body>
+</html>
