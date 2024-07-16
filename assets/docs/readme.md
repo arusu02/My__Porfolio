@@ -17,11 +17,8 @@ Il progetto è organizzato come segue:
 │   └── /portfolio
 │       ├── project1.jpg
 │       └── project2.jpg
-├── /fonts
-│   ├── OpenSans-Regular.ttf
-│   └── Roboto-Bold.ttf
 ├── /docs
-│   ├── readme.md
+│   ├── readme.md  ( More info about my website )
 │   └── CV AdrianRusu.pdf
 └── index.html
 ```
