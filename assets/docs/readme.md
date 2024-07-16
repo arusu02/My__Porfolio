@@ -33,6 +33,7 @@ Il progetto è organizzato come segue:
   - `main.js`: Script principale del sito.
 
 - **/img**: Contiene tutte le immagini del sito.
+  - `Favicon.png`: icona Favicon.
   - `pictureProfile-nobackground.png`: Immagine principale del sito.
     - `linkedin.png`: Icona di Linkedin + "Link profilo".
     - `github.png`: Icona di Github + "Link profilo".
